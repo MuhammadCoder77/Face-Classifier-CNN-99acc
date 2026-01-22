@@ -19,7 +19,7 @@ The model was trained on a synthesized dataset containing **10,000 images**:
 - **Classes**: 2 (Face, Non-Face)
 - **Distribution**: Balanced, with approximately 5,000 images per class.
 - **Input Shape**: Images are resized to **250x250 pixels** (RGB).
-- **Synthesis**: The dataset was artificially generated/augmented to create a robust set of face and non-face examples for training.
+- **Synthesis**: 5,000 images for the Face class were taken from the LFW dataset, whereas 1,000 images from the CIFAR-10 dataset were augmented to create 5,000 images for the Non-face class.
 
 ## Model Architecture
 The core model is a Sequential CNN with the following structure:
