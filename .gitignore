@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (if large - though user requested code push, large datasets are usually ignored, but here it seems the dataset is not in the root or is small enough/synthesized elsewhere. The prompt said "entire codebase". I'll exclude standard temp stuff.)
+# If "Dataset" folder exists and is huge, we might ignore it, but I'll keep it open unless I see it.
+# Based on file list, no Dataset folder in root.
+
+# Models (User mentioned checking size. H5 files were ~1.8MB, so they are fine to commit)
+# *.h5
+# *.keras
